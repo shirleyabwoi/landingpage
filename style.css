@@ -436,9 +436,7 @@ hr{
     display: flex;
     gap: 30%;
 }
-body{
-    background-color: rgb(227, 239, 240);
-}
+
 .aboutSupport, .aboutTransfers{
     margin-top: 110px;
 }
