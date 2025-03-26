@@ -1,0 +1,486 @@
+.navbar{
+        display: flex;
+        justify-content: center;
+        color: black;
+        margin-top: -10px;
+        gap: 30px;
+        
+        
+}
+.statistics{
+    margin-left: 150px;
+    display: flex;
+    gap: 70px;
+}
+.brownContainer{
+    background-color: rgb(238, 195, 115);
+    width: 670px;
+    height: 90px;
+    position: relative;
+}
+.interfacecontainer{
+    margin-left: 160px;
+    display: flex;
+    gap: 190px;
+    margin-top: 140px;
+}
+#customerTestimonials{
+    margin-left: 500px;
+}
+#starIcon{
+    margin-top: 30px;
+}
+.rating{
+    margin-left: 70px;
+    display: flex;
+    
+}
+.reviews{
+    display: flex;
+    margin-left: 130px;
+    margin-bottom: 130px;
+    gap: 190px;
+}
+#jecsonImage{
+    border-radius: 50%;
+    height: 32%;
+    width: 20%;
+}
+#fiveStar{
+    color: gold;
+    margin-left: 10px;
+}
+#yellowStar{
+    margin-top: 30px;
+}
+.container{
+    display: flex;
+    margin-left: 200px;
+    gap: 240px;
+  
+    margin-bottom: 200px;
+}
+#contactText{
+    margin-top: 100px;
+    margin-left: -430px;
+}
+.upperFooter{
+    display: flex;
+    gap: 150px;
+    background-color: rgb(30, 30, 80);
+    color: white;
+    padding: 50px;
+}
+.social-Icon{
+    gap: 40px;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.lowerFooter{
+    background-color: black;
+    padding: 40px;
+    color: white;
+    display: flex;
+    gap: 740px;
+}
+.copyright{
+    display: flex;
+    gap: 10px;
+}
+#ditIcon{
+    border-radius: 50%;
+    background-color: purple;
+    padding: 20px;
+}
+#copyrightIcon{
+    margin-top: 40px;
+}
+.terms{
+    display: flex;
+    gap: 40px;
+}
+.footerIcons{
+    display: grid;
+    gap: 50px;
+}
+#downloadManual{
+    font-size: 50px;
+}
+.leftcontainer{
+    margin-top: 160px;
+}
+#userTotal{
+    text-decoration: underline;
+}
+#ratings{
+    display: flex;
+    font-size: 20px;
+    margin-left: 480px;
+}
+.edwinReview{
+    border: solid 1px palevioletred;
+    width: 700px;
+    height: 550px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 150px;
+}
+#directArrow{
+   
+    margin-bottom: 50px;
+    transform: rotate(90deg);
+}
+#arrowLanguage{
+    margin-left: 200px;
+  
+}
+.leftPart{
+    transform: rotate(10deg);
+}
+.languageText{
+    display: flex;
+    gap: 20px;
+}
+#loginButton{
+    border: solid black 2px;
+    border-radius: 9px;
+    width: 170px;
+    height: 50px;
+}
+#angelImage{
+    border-radius: 50%;
+}
+#signupButton{
+    border-radius: 9px;
+    width: 170px;
+    height: 50px;
+    background-color: plum;
+}
+#userIcon{
+    margin-top: 40px;
+}
+#arrow{
+    margin-top: 40px;
+}
+.interfaceText{
+    display: flex;
+    gap: 10px;
+}
+.icon{
+    margin-top: 20px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 20px;
+   
+}
+.interfacePart{
+   margin-top: 40px;
+    display: flex;
+    transform: rotate(10deg);
+    
+}
+.textDescription{
+    margin-left: 700px;
+    font-size: 30px;
+}
+.interfaceText{
+    display: flex;
+    gap: 30px;
+}
+#logoImage{
+    margin-left: -100px;
+    margin-bottom: -165px;
+}
+#animationImage{
+    position: absolute;
+    width: 400px;
+    margin-top:270px ;
+    margin-left: 100px;
+}
+#playVideo{
+    width: 110px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    margin-left: 450px;
+}
+#anchorIcon{
+   background-color: blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    align-content: center;
+    margin-left: 60px;
+}
+.joinManual{
+    margin-top: 700px;
+}
+#joinButton{
+    width: 110px;
+    height: 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(209, 40, 96);
+    color: white;
+}
+.video{
+    background-color: white;
+    position: absolute;
+    width: 30%;
+    padding: 10px;
+    margin-left: 50px;
+   margin-top: -50px;
+    
+}
+#d-icon{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.install-section{
+    display: flex;
+    gap: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.tiltedPart{
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    width: 500px;
+    height: 600px;
+    margin-top: 20px;
+    padding: 30px;
+    transform: rotate(350deg);
+    margin-left: 20px;
+}
+.leftsection{
+    width: 50%;
+}
+#navtext{
+    color: black;
+    font-size: 25px;
+}
+.companyIcons{
+    display: flex;
+    gap: 90px;
+}
+#toInstall-apple{
+    width: 170px;
+    height: 70px;
+    background-color: rgb(18, 18, 65);
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    align-items: center;
+   
+}
+#appleIcon{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#contactDetails{
+    text-decoration-line: underline;
+}
+#toInstall-play{
+    width: 170px;
+    height: 70px; 
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+}
+#interfaceButton{
+    background-color: rgb(18, 18, 65);
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 9px;
+}
+#phoneIcon{
+    margin-left: 110px;
+    font-size: 40px;
+}
+.partnerCompanies{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 230px;
+    margin-bottom: 150px;
+}
+.aboutInterface{
+    border: solid 2px;
+    border-color: plum;
+    border-radius: 20px;
+    padding: 70px;
+    width: 250px;
+    height: 250px;
+
+}
+#description{
+    justify-self: center;
+    margin-bottom: 40px;
+}
+#logo{
+    margin-left: 1500px;
+}
+.mid-section{
+    margin-top: 800px;
+}
+a{
+    text-decoration: none;
+    color: red;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+.productOverview{
+    display: flex;
+    gap: 250px;
+    margin-left: 230px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+#star-icon{
+    border-radius: 50%;
+    padding: 25px;
+    background-color: plum;
+}
+#equalizer{
+    border-radius: 50%;
+    background-color: lightblue;
+    padding: 10px;
+}
+#quillIcon{
+    border-radius: 50%;
+    padding: 30px;
+}
+#google, #slack{
+    width: 210px;
+    height: 90px;
+}
+#microsoft{
+    width: 200px;
+    height: 70px;
+}
+#dropbox{
+    width: 240px;
+    height: 110px;
+}
+#trello{
+    height: 140px;
+    width: 250px;
+    margin-top: -30px;
+}
+#companyText{
+    margin-left: 600px;
+}
+.photo{
+    position: absolute;
+    
+}
+.header-container{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+hr{
+    color: rgb(218, 212, 212);
+    width: 70%;
+}
+#manImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 220px;
+    margin-top: -170px;
+}
+#profilephoto{
+    border-radius: 50%;
+    width: 40px;
+    height: 50px;
+   margin-top: 70px;
+   margin-left: 40px;
+
+}
+.speedEstimate{
+    position: absolute;
+    background-color: white;
+    width: 70%;
+    margin-top: 70px;
+    border-radius: 20px;
+    height: 15%;
+    padding: 10px;
+    display: flex;
+    gap: 140px;
+
+}
+
+
+#amountReceived{
+    background-color: rgb(204, 243, 243);
+    color: rgb(85, 190, 197);
+    width: 50%;
+    margin-left: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: -60px;
+}
+.clientInformation{
+    display: flex;
+    gap: 30%;
+}
+body{
+    background-color: rgb(227, 239, 240);
+}
+.aboutSupport, .aboutTransfers{
+    margin-top: 110px;
+}
+
+#submit-button{
+    border-radius: 20px;
+    color: white;
+    background-color: pink;
+    width: 150px;
+    height: 60px;
+    border: none;
+    margin-top: -40px;
+}
+#text{
+    font-size: 70px;
+    
+}
+.leftSide{
+    display: grid;
+    gap: 40px;
+    width: 50%;
+}
+#actualNumbers{
+    font-size: 60px;
+}
+.statisticDescription{
+    display: flex;
+    gap: 50px;
+}
+#textHead{
+    font-size: 80px;
+    color: rgb(18, 18, 65);
+}
+headLink{
+    color: red;
+}
+.header-text{
+    margin-left: 1200px;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+.dit-icon{
+    margin-top: 70px;
+}
