@@ -7,25 +7,30 @@
         
         
 }
-.statistics{
+.statisticsContainer{
     margin-left: 150px;
     display: flex;
     gap: 70px;
 }
 .brownContainer{
     background-color: rgb(238, 195, 115);
-    width: 670px;
+    width: 500px;
     height: 90px;
     position: relative;
 }
+
 .interfacecontainer{
     margin-left: 160px;
     display: flex;
     gap: 190px;
     margin-top: 140px;
 }
+.brownContainer{
+    width: 500px;
+}
 #customerTestimonials{
-    margin-left: 500px;
+    margin-left: 700px;
+    margin-bottom: 50px;
 }
 #starIcon{
     margin-top: 30px;
@@ -52,6 +57,9 @@
 }
 #yellowStar{
     margin-top: 30px;
+}
+body{
+    background-color: rgb(235, 246, 247);
 }
 .container{
     display: flex;
@@ -92,6 +100,7 @@
     border-radius: 50%;
     background-color: purple;
     padding: 20px;
+    
 }
 #copyrightIcon{
     margin-top: 40px;
@@ -247,6 +256,7 @@
     gap: 10px;
     margin-left: 250px;
     margin-right: 250px;
+    margin-top: 70px;
 }
 .tiltedPart{
     background-color: white;
@@ -436,7 +446,10 @@ hr{
     display: flex;
     gap: 30%;
 }
-
+body{
+    max-width: fit-content;
+    overflow-x: hidden;
+}
 .aboutSupport, .aboutTransfers{
     margin-top: 110px;
 }
@@ -454,6 +467,9 @@ hr{
     font-size: 70px;
     
 }
+#toLogin-text{
+    margin-top: -25px;
+}
 .leftSide{
     display: grid;
     gap: 40px;
@@ -470,7 +486,7 @@ hr{
     font-size: 80px;
     color: rgb(18, 18, 65);
 }
-headLink{
+.headLink{
     color: red;
 }
 .header-text{
@@ -481,4 +497,125 @@ headLink{
 }
 .dit-icon{
     margin-top: 70px;
+}
+
+@media only screen and (max-width: 620px) {
+.nav-bar{
+    margin-left: -80px;
+    width: min-content;
+    margin-top: 70px;
+}
+.install-section{
+    display: block;
+    margin-left: 40px;
+    text-align: center;
+
+}
+.tiltedPart{
+    max-width: fit-content;
+    display: block;
+    margin-top: 2px;
+    transform: rotate(0deg);
+    
+}
+.partnerCompanies{
+    display: block;
+}
+#companyText{
+    margin-left: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.mid-section{
+    margin-top: 0%;
+}
+.companyIcons{
+    display: block;
+    margin-top: 40px;
+}
+.productOverview{
+    display: block;
+}
+.aboutInterface{
+    margin-left: -90px;
+}
+#profilephoto{
+    width: 10px;
+    height: 10px;
+    
+}
+#logo{
+    margin-left: auto;
+}
+.edwinReview{
+    margin-left: -100px;
+    margin-bottom: 40px;
+    width: 500px; 
+}
+.upperFooter{
+    display: block;
+    width: 150%;
+}
+.lowerFooter{
+    width: 156%;
+}
+#picture{
+    margin-left: -160px;
+}
+#jecsonImage{
+    width: 130px;
+    margin-top: 20px;
+}
+.speedEstimate{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    
+}
+.statisticsContainer{
+    display: block;
+}
+.textDescription{
+    margin-left: 190px;
+}
+header{
+    display: grid;
+
+}
+#customerTestimonials{
+    margin-left: 140px;
+}
+.rightPart{
+transform: rotate(350deg);
+
+}
+
+.reviews{
+    display: block;
+    
+}
+.container{
+    display: grid;
+    
+}
+
+.leftPart{
+    transform: rotate(0deg);
+}
+#phoneIcon{
+    margin-left: 40px;
+}
+.interfacecontainer{
+    display: block;
+    gap: 30px;
+}
+#playVideo{
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+.header-text{
+    margin-left: 10px;
+    margin-top: 40px;
+}
 }
